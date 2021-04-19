@@ -1,0 +1,46 @@
+.AdvertiseContainer {
+  padding: 30px 50px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://new.iselearning.ac.in/wp-content/uploads/151891530-stationery-background-school-tools-seamless-pattern-art-education-wallpaper-with-line-icons-of-penci.jpg);
+}
+
+.AdvertiseBox {
+  width: 100%;
+  position: relative;
+}
+.AdvertiseBoxLeft {
+  width: 60%;
+  text-align: left;
+  padding: 20px 141px 20px 20px;
+  border-radius: 25px 0px 0px 0px;
+  background-color: #337ab7;
+  position: relative;
+}
+
+.AdvertiseBoxLeft > h3 {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.AdvertiseBoxLeft > p {
+  color: white;
+}
+.AdvertiseBoxRight {
+  position: absolute;
+  top: 15%;
+  left: 47%;
+  width: 577px;
+  height: 341px;
+  border-radius: 20px 0px 0px 20px;
+  height: 100%;
+}
+
+.AdvertiseBoxRight > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 37px 0px 37px 0px;
+  border: solid 6px white;
+}

@@ -1,0 +1,30 @@
+.SchoolInfoBanner {
+  padding: 20px 30px;
+  background-color: #e2e7f3;
+}
+
+.SchoolInfoBannerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.SchoolInfoBannerLogo {
+  width: 356px;
+}
+.SchoolInfoBannerLogo > img {
+  width: 100%;
+}
+
+.SchoolInfoBannerDetails {
+  width: 60%;
+  text-align: left;
+  font-size: 26px;
+  padding: 0px 20px;
+  font-weight: 800;
+}

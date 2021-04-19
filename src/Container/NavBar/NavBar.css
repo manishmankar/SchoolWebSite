@@ -1,0 +1,30 @@
+.navBarContainer {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  margin: 0px auto;
+  height: 70px;
+
+  font-weight: 700;
+  align-items: center;
+  font-family: inherit;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.ant-dropdown-menu-item {
+  padding: 0px 20px !important;
+}
+
+.ant-dropdown .ant-dropdown-placement-bottomLeft .ant-dropdown-hidden {
+  top: 10px !important;
+}

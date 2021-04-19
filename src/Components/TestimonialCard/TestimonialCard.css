@@ -1,0 +1,22 @@
+.TestimonialCard {
+  margin: 0px 10px;
+}
+
+.TestimonialCardImg {
+  height: 200px;
+}
+
+.TestimonialCardImg > img {
+  height: 100%;
+}
+.TestimonialCardDesc {
+  text-align: left;
+}
+.TestimonialCardDesc > h2 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.TestimonialCardDesc > p {
+  font-size: 13px;
+}

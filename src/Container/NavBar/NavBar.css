@@ -8,10 +8,10 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  width: 700px;
+  width: 75%;
   margin: 0px auto;
   height: 70px;
-
+  font-size: 14px;
   font-weight: 700;
   align-items: center;
   font-family: inherit;
@@ -20,6 +20,12 @@
   z-index: 10;
   background-color: white;
 }
+.navbar > a {
+  color: black;
+}
+.navbar > div > a {
+  color: black;
+}
 
 .ant-dropdown-menu-item {
   padding: 0px 20px !important;
@@ -27,4 +33,39 @@
 
 .ant-dropdown .ant-dropdown-placement-bottomLeft .ant-dropdown-hidden {
   top: 10px !important;
+}
+
+.navForMobile {
+  display: none;
+}
+
+.sideWrapper {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .navForMobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    height: 50px;
+  }
+
+  .iconForMobile > img {
+    width: 100px;
+  }
+
+  .sideWrapper {
+    background: beige;
+    width: 100%;
+    position: absolute;
+    top: 50;
+    display: block;
+  }
+  .sideWrapperMenu {
+    width: 100%;
+  }
 }

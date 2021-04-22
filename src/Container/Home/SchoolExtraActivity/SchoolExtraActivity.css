@@ -7,6 +7,7 @@
   justify-content: center;
   padding-top: 30px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .SchoolExtraActivityHeding {
   font-size: 35px;
@@ -44,4 +45,22 @@
 
 .SchoolInfoBannerDetails > div {
   padding: 8px 0px;
+}
+
+@media (max-width: 768px) {
+  .SchoolExtraActivityImg {
+    width: 260px;
+    height: 260px;
+  }
+  .schoolExtraActivityTypes {
+    text-align: center;
+  }
+
+  .SchoolExtraActivityHeding {
+    font-size: 25px;
+  }
+
+  .eachIteam {
+    font-size: 20px;
+  }
 }

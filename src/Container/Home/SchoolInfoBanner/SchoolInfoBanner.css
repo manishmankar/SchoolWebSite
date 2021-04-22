@@ -28,3 +28,18 @@
   padding: 0px 20px;
   font-weight: 800;
 }
+
+@media (max-width: 768px) {
+  .SchoolInfoBannerDetails {
+  }
+
+  .SchoolInfoBannerDetails {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 25px;
+
+    font-weight: 700;
+    font-weight: 500;
+    padding: 0px;
+  }
+}

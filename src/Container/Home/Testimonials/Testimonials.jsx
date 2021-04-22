@@ -17,6 +17,7 @@ export default class Testimonials extends Component {
             </div>
           </div>
           <div className="TestimonialsRight">
+            <div className="TestimonialsRightHedding">Testimonials</div>
             <DemoCarousel />
           </div>
         </div>

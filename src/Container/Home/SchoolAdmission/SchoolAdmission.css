@@ -1,0 +1,29 @@
+.SchoolAdmissionContainer {
+  padding: 30px;
+  background-color: #e2e3e5;
+}
+
+.SchoolAdmissionContainer > h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.SchoolAdmissionContainer > p {
+  font-weight: 500;
+}
+.SchoolAdmissionButtons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.SchoolAdmissionButtons > button {
+  width: 45%;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .SchoolAdmissionContainer > h1 {
+    font-size: 26px;
+  }
+}

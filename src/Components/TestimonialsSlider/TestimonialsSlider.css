@@ -1,0 +1,18 @@
+.TestimonialSlider {
+  margin: 20px;
+  height: 400px;
+  text-align: left;
+}
+
+.TestimonialSliderContainer {
+  padding: 20px;
+  border: dotted;
+  border-radius: 10px;
+  color: white;
+  font-size: 23px;
+}
+@media (max-width: 768px) {
+  .TestimonialSliderContainer {
+    font-size: 15px;
+  }
+}

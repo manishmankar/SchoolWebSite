@@ -1,25 +1,80 @@
 import React, { Component } from "react";
+import "./TestimonialsSlider.css";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
 
 export default class DemoCarousel extends Component {
   render() {
     return (
-      <Carousel showArrows={true}>
-        <div>
-          <img src="assets/1.jpeg" />
-          <p className="legend">Legend 1</p>
-        </div>
-        <div>
-          <img src="assets/2.jpeg" />
-          <p className="legend">Legend 2</p>
-        </div>
-        <div>
-          <img src="assets/3.jpeg" />
-          <p className="legend">Legend 3</p>
-        </div>
-      </Carousel>
+      <CarouselProvider
+        infinite={true}
+        naturalSlideWidth={100}
+        naturalSlideHeight={25}
+        totalSlides={3}
+      >
+        <Slider className="TestimonialSlider">
+          <Slide index={0}>
+            <div className="TestimonialSliderContainer">
+              <div>
+                A big thanks to all the teachers for putting so much effort into
+                my child's education and being so corporative and helpful. The
+                teachers are very passionate and caring towards the child I am
+                extremely happy with Imperial School of Excellence
+              </div>
+              <div>
+                <img src="" alt="" />
+                <div>
+                  <div>GOSAI VISHWA BHARAT</div>
+                  <div>Parents</div>
+                </div>
+              </div>
+            </div>
+          </Slide>
+          <Slide index={1}>
+            <div className="TestimonialSliderContainer">
+              <div>
+                A big thanks to all the teachers for putting so much effort into
+                my child's education and being so corporative and helpful. The
+                teachers are very passionate and caring towards the child I am
+                extremely happy with Imperial School of Excellence
+              </div>
+              <div>
+                <img src="" alt="" />
+                <div>
+                  <div>GOSAI VISHWA BHARAT</div>
+                  <div>Parents</div>
+                </div>
+              </div>
+            </div>
+          </Slide>
+          <Slide index={2}>
+            <div className="TestimonialSliderContainer">
+              <div>
+                A big thanks to all the teachers for putting so much effort into
+                my child's education and being so corporative and helpful. The
+                teachers are very passionate and caring towards the child I am
+                extremely happy with Imperial School of Excellence
+              </div>
+              <div>
+                <img src="" alt="" />
+                <div>
+                  <div>GOSAI VISHWA BHARAT</div>
+                  <div>Parents</div>
+                </div>
+              </div>
+            </div>
+          </Slide>
+        </Slider>
+        <ButtonBack>Back</ButtonBack>
+        <ButtonNext>Next</ButtonNext>
+      </CarouselProvider>
     );
   }
 }

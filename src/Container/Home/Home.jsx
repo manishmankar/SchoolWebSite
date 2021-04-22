@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import LearClassRoom from "./LearClassRoom/LearClassRoom";
+import SchoolAdmission from "./SchoolAdmission/SchoolAdmission";
 import SchoolAdvertise from "./SchoolAdvertise/SchoolAdvertise";
 import SchoolExtraActivity from "./SchoolExtraActivity/SchoolExtraActivity";
 
@@ -19,6 +20,7 @@ export default class Home extends Component {
         <SchoolExtraActivity />
         <LearClassRoom />
         <Testimonials />
+        <SchoolAdmission />
       </div>
     );
   }

@@ -13,10 +13,10 @@ export default function SimpleSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
   };
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className="SimpleSliderContainer">
       <div className="slide">
         <div className="image">
           <img src={img1} alt="" />

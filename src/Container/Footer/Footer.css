@@ -1,0 +1,105 @@
+.footerContainer {
+  padding: 20px 30px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #363839;
+
+  text-align: left;
+}
+
+.footerBlock1 {
+  width: 290px;
+  padding: 10px;
+}
+.footerBlock1 > img {
+  width: 80%;
+}
+.footerBlock1 > h3 {
+  color: white;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.footerBlock1 > p {
+  color: white;
+  padding-right: 85px;
+  font-size: 13px;
+}
+
+.footerBlock2 {
+  width: 290px;
+
+  padding: 10px;
+}
+
+.footerBlock2 > h2 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.footerBlock2 > p {
+  color: white;
+  font-size: 13px;
+  padding-right: 45px;
+}
+
+.footerBlock2 > div {
+  font-size: 13px;
+  color: white;
+}
+
+.footerBlock2 > h3 {
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.footerBlock3 {
+  width: 290px;
+  padding: 10px;
+}
+
+.footerBlock3 > h2 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.qiuckLinks {
+  display: flex;
+  justify-content: space-around;
+}
+.qiuckLinks > div {
+  text-align: left;
+  font-size: 13px;
+  color: white;
+}
+
+.footerBlock4 {
+  width: 290px;
+  padding: 10px;
+}
+.footerBlock4 > form {
+  margin-right: 35px;
+}
+.footerBlock4 > h2 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.reqbtn {
+  width: 100%;
+}
+.footerBlock4Img {
+  margin-right: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerBlock4Img > div > img {
+  width: 110px;
+}

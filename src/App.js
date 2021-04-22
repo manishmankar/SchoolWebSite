@@ -5,6 +5,7 @@ import NavBefore from "./Container/NavBefore/NavBefore";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Container/Home/Home";
+import Footer from "./Container/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

@@ -1,6 +1,40 @@
 .Testimonials {
   padding: 30px;
+  background-color: #3a61ac;
+}
+
+.TestimonialsContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.TestimonialsLeft {
+  width: 550px;
+}
+.TestimonialsHedding {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
 }
 .TestimonialsLeftContainer {
   display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+  justify-content: center;
+}
+.TestimonialsRight {
+  width: 550px;
+}
+.TestimonialsRightHedding {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .TestimonialsContainer {
+    justify-content: center;
+  }
 }

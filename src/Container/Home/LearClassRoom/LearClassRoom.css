@@ -8,3 +8,9 @@
   color: #1890ff;
   padding-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .LearClassRoomHedding {
+    font-size: 25px;
+  }
+}

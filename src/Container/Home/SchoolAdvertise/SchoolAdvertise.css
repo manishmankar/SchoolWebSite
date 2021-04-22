@@ -32,10 +32,9 @@
   position: absolute;
   top: 15%;
   left: 47%;
-  width: 577px;
-  height: 341px;
-  border-radius: 20px 0px 0px 20px;
+  width: 53%;
   height: 100%;
+  border-radius: 20px 0px 0px 20px;
 }
 
 .AdvertiseBoxRight > img {
@@ -43,4 +42,27 @@
   height: 100%;
   border-radius: 37px 0px 37px 0px;
   border: solid 6px white;
+}
+
+@media (max-width: 768px) {
+  .AdvertiseContainer {
+    padding: 21px 24px 22px;
+  }
+  .AdvertiseBoxLeft {
+    width: 100%;
+    text-align: center;
+    padding: 9px 11px 17px 11px;
+    border-radius: 25px 0px 0px 0px;
+    background-color: #337ab7;
+    position: relative;
+    font-size: 14px;
+  }
+  .AdvertiseBoxRight {
+    position: unset;
+
+    width: 100%;
+    margin-top: 19px;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
 }

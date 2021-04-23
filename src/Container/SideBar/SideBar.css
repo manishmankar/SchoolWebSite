@@ -1,0 +1,86 @@
+.SideBar {
+  position: fixed;
+  top: 30%;
+  z-index: 10;
+  right: 0%;
+}
+
+.SideBarBox1 {
+  height: 80px;
+  width: 30px;
+  background-color: pink;
+  opacity: 0.7;
+  margin: 5px 0px 10px 5px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.SideBarBox1 > img {
+  width: 30px;
+  height: 30px;
+  margin-top: 25px;
+}
+
+.sideBarHide {
+  display: none;
+  background-color: aqua;
+  position: absolute;
+  width: 200px;
+  top: 0;
+  right: 100%;
+}
+
+.SideBarBox1:hover + .sideBarHide {
+  display: block;
+  cursor: pointer;
+}
+
+.SideBarBox2 {
+  height: 80px;
+  width: 30px;
+  background-color: yellowgreen;
+  opacity: 0.7;
+  margin: 5px 0px 10px 5px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.SideBarBox2 > img {
+  width: 30px;
+  height: 30px;
+  margin-top: 25px;
+}
+
+.SideBarBox3 {
+  height: 80px;
+  width: 30px;
+  background-color: rgb(252, 140, 140);
+  opacity: 0.7;
+  margin: 5px 0px 10px 5px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.SideBarBox3 > img {
+  width: 30px;
+  height: 30px;
+  margin-top: 25px;
+}
+
+.m {
+  display: none;
+}
+.SideBarBox3:hover + .m {
+  background-color: blue;
+}
+.SideBarBox4 {
+  height: 80px;
+  width: 30px;
+  background-color: blueviolet;
+  opacity: 0.7;
+  margin: 5px 0px 10px 5px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.SideBarBox4 > img {
+  width: 30px;
+  height: 30px;
+  margin-top: 25px;
+}

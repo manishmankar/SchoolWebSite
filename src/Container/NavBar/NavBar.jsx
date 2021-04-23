@@ -157,7 +157,7 @@ export default class NavBar extends Component {
         ) : null}
 
         <div className="navbar">
-          <Link>
+          <Link to="/">
             <div> Home</div>
           </Link>
 
@@ -181,19 +181,19 @@ export default class NavBar extends Component {
               </a>
             </Dropdown>
           </div>
-          <Link>
+          <Link to="/gallary">
             <div> Gallary</div>
           </Link>
-          <Link>
+          <Link to="/facilities">
             <div>Facilitize</div>
           </Link>
-          <Link>
+          <Link to="/event">
             <div>Events</div>
           </Link>
-          <Link>
-            <div>Enquiry</div>
+          <Link to="/inquiry">
+            <div>Inquiry</div>
           </Link>
-          <Link>
+          <Link to="/contact">
             <div>Contact Us</div>
           </Link>
         </div>

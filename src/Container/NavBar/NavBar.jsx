@@ -19,7 +19,7 @@ const menu = (
         rel="noopener noreferrer"
         href="https://www.antgroup.com"
       >
-        1st menu item
+        Message
       </a>
     </Menu.Item>
     <Menu.Item>
@@ -28,7 +28,7 @@ const menu = (
         rel="noopener noreferrer"
         href="https://www.aliyun.com"
       >
-        2nd menu item
+        Team Members
       </a>
     </Menu.Item>
     <Menu.Item>
@@ -37,10 +37,49 @@ const menu = (
         rel="noopener noreferrer"
         href="https://www.luohanacademy.com"
       >
-        3rd menu item
+        Achievments
       </a>
     </Menu.Item>
-    <Menu.Item danger>a danger item</Menu.Item>
+  </Menu>
+);
+const acad = (
+  <Menu>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.antgroup.com"
+      >
+        Imperial Kids
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.aliyun.com"
+      >
+        Lower Primary
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.luohanacademy.com"
+      >
+        Upper Primary
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.luohanacademy.com"
+      >
+        Career
+      </a>
+    </Menu.Item>
   </Menu>
 );
 
@@ -92,7 +131,7 @@ export default class NavBar extends Component {
               mode="inline"
             >
               <Menu.Item>
-                <div onClick={() => (window.location.href = "")}>
+                <div onClick={() => (window.location.href = "/")}>
                   <Menu.Item>Home</Menu.Item>
                 </div>
               </Menu.Item>
@@ -128,27 +167,27 @@ export default class NavBar extends Component {
               </SubMenu>
 
               <Menu.Item>
-                <div onClick={() => (window.location.href = "")}>
+                <div onClick={() => (window.location.href = "/gallary")}>
                   <Menu.Item>Gallary</Menu.Item>
                 </div>
               </Menu.Item>
               <Menu.Item>
-                <div onClick={() => (window.location.href = "")}>
+                <div onClick={() => (window.location.href = "/facilities")}>
                   <Menu.Item>Facilities</Menu.Item>
                 </div>
               </Menu.Item>
               <Menu.Item>
-                <div onClick={() => (window.location.href = "")}>
+                <div onClick={() => (window.location.href = "/event")}>
                   <Menu.Item>Event</Menu.Item>
                 </div>
               </Menu.Item>
               <Menu.Item>
-                <div onClick={() => (window.location.href = "")}>
+                <div onClick={() => (window.location.href = "/inquiry")}>
                   <Menu.Item>Inquiry</Menu.Item>
                 </div>
               </Menu.Item>
               <Menu.Item>
-                <div onClick={() => (window.location.href = "")}>
+                <div onClick={() => (window.location.href = "/contact")}>
                   <Menu.Item>Contact Us</Menu.Item>
                 </div>
               </Menu.Item>
@@ -172,7 +211,7 @@ export default class NavBar extends Component {
             </Dropdown>
           </div>
           <div>
-            <Dropdown overlay={menu}>
+            <Dropdown overlay={acad}>
               <a
                 className="ant-dropdown-link"
                 onClick={(e) => e.preventDefault()}

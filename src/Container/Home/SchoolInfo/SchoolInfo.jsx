@@ -24,7 +24,7 @@ export default class SchoolInfo extends Component {
           </div>
           <div className="schoolInfoTypesEach">
             <img src="https://img.icons8.com/cute-clipart/64/000000/trigonometry.png" />
-            <h3>Impe rial Upper Primary</h3>
+            <h3>Imperial Upper Primary</h3>
             <h4>6th to 8th Standard</h4>
           </div>
         </div>

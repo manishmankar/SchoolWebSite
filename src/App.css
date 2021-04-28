@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.ant-dropdown-menu {
+  top: 22px !important;
+  width: 230px !important;
+}
+.ant-dropdown-menu-item {
+  line-height: 44px !important;
+}
+
 .slick-prev {
   left: 0 !important;
   z-index: 1 !important;

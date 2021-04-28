@@ -45,3 +45,30 @@
   margin: auto;
   background-color: white;
 }
+
+@media (max-width: 760px) {
+  .bannerContainer {
+    display: flex;
+    height: 274px;
+    width: 274px;
+  }
+  .leftBannerText {
+    font-size: 16px;
+    padding: 0px 16px 10px;
+  }
+
+  .rightBannerIteam {
+    padding: 0px;
+    padding-top: 25px;
+  }
+  .rightBannerIteam > img {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-color: white;
+  }
+
+  .rightBannerIteam > div {
+    font-size: 10px;
+  }
+}

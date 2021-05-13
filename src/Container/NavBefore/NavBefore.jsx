@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import "./NavBefore.css";
 import { Button } from "antd";
+
 export class NavBefore extends Component {
   render() {
     return (
       <div className="navBefor">
-        <div>logo</div>
+        <div></div>
         <div className="leftItem">
           <div className="item">Blog</div>
           <div className="item">FAQ</div>

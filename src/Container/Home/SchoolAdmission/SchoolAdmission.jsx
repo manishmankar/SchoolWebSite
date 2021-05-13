@@ -7,7 +7,7 @@ export default class SchoolAdmission extends Component {
     return (
       <div className="SchoolAdmission">
         <div className="SchoolAdmissionContainer">
-          <h1>Interested In Studying at Imperial School of Excellence?</h1>
+          <h1>Interested In Studying at VDHS School of Excellence?</h1>
           <p>
             Providing Education From Nursery To Primary (Gujarati and English
             Medium)

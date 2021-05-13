@@ -38,7 +38,7 @@ export default class TestimonialCard extends Component {
               src="https://secure.gravatar.com/avatar/372e5942ebc068df0f4ada74829309dc?s=60&d=mm&r=g"
               alt=""
             />
-            <div> Imperial June 9th, 2020</div>
+            <div> VDHS June 9th, 2020</div>
           </CardActions>
         </Card>
       </div>

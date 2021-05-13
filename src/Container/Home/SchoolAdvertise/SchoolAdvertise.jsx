@@ -11,11 +11,10 @@ class SchoolAdvertise extends Component {
           <div className="AdvertiseBoxLeft">
             <h3>Shaping Leaders of Tomorrow</h3>
             <p>
-              Imperial School of Excellence is a young, co-educational
-              international school based in Ahmedabad. The school, true to its
-              name. provides excellent quality education in English & Gujarati
-              Medium right from Nursery to 8th Standard incorporating GSEB
-              syllabus.
+              VDHS School of Excellence is a young, co-educational international
+              school based in Ahmedabad. The school, true to its name. provides
+              excellent quality education in English & Gujarati Medium right
+              from Nursery to 8th Standard incorporating GSEB syllabus.
             </p>
             <p>
               We are equipped with modern facilities like 3D projection

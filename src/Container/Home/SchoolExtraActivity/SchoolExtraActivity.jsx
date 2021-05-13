@@ -1,42 +1,38 @@
 import React, { Component } from "react";
 import "./SchoolExtraActivity.css";
-import img11 from "../../../Assets/New folder/11.jpg";
-import img22 from "../../../Assets/New folder/22.jpg";
-import img33 from "../../../Assets/New folder/33.jpg";
-import img44 from "../../../Assets/New folder/44.jpg";
-import img55 from "../../../Assets/New folder/55.jpg";
 
 const data = [
   {
     id: "1",
     title: "Experienced Faculty",
-    img: img11,
+    img: "https://new.iselearning.ac.in/wp-content/uploads/CLass_02_VIew-768x641-1.jpg",
   },
   {
     id: "2",
     title: "Practical Studies",
-    img: img22,
+    img: "https://new.iselearning.ac.in/wp-content/uploads/faculty.jpg",
   },
   {
     id: "3",
     title: "Multimedia Learning",
-    img: img33,
+    img: "https://new.iselearning.ac.in/wp-content/uploads/class-302116_1920.jpg",
   },
   {
     id: "4",
     title: "Sharing Eveluation with Parents",
-    img: img44,
+    img: "https://new.iselearning.ac.in/wp-content/uploads/coloring-5017864_1920.jpg",
   },
   {
     id: "5",
     title: "Support & Guidance",
-    img: img55,
+    img: "https://new.iselearning.ac.in/wp-content/uploads/nursery-1219348_1920.jpg",
   },
 ];
 
 export default class SchoolExtraActivity extends Component {
   state = {
-    image: img11,
+    image:
+      "https://new.iselearning.ac.in/wp-content/uploads/CLass_02_VIew-768x641-1.jpg",
   };
 
   changleHandler = (key) => {

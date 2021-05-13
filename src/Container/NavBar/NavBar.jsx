@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./NavBar.css";
-
+import logo from "../../Assets/logo.png";
 import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
 import { Menu, Dropdown, Button, Space } from "antd";
 import { Link } from "react-router-dom";
@@ -45,38 +45,22 @@ const menu = (
 const acad = (
   <Menu>
     <Menu.Item>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.antgroup.com"
-      >
-        Imperial Kids
+      <a target="_blank" rel="noopener noreferrer" href="/">
+        VDHS Kids
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.aliyun.com"
-      >
+      <a target="_blank" rel="noopener noreferrer" href="/">
         Lower Primary
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.luohanacademy.com"
-      >
+      <a target="_blank" rel="noopener noreferrer" href="/">
         Upper Primary
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.luohanacademy.com"
-      >
+      <a target="_blank" rel="noopener noreferrer" href="/">
         Career
       </a>
     </Menu.Item>
@@ -97,12 +81,12 @@ export default class NavBar extends Component {
   render() {
     const array = {
       about: [
-        { id: 1, name: "Massages", path: "http://www.alipay.com/" },
+        { id: 1, name: "Massages", path: "/" },
         { id: 2, name: "Team Members", path: "/" },
         { id: 3, name: "Achievements", path: "/" },
       ],
       academics: [
-        { id: 1, name: "Imperial Kids", path: "http://www.alipay.com/" },
+        { id: 1, name: "VDHS Kids", path: "/" },
         { id: 2, name: "Lower Primary", path: "/" },
         { id: 3, name: "Upper Primary", path: "/" },
       ],
@@ -135,24 +119,6 @@ export default class NavBar extends Component {
                   <Menu.Item>Home</Menu.Item>
                 </div>
               </Menu.Item>
-
-              <SubMenu
-                title={
-                  <span>
-                    <span>About Us</span>
-                  </span>
-                }
-              >
-                {array.about.map((data) => {
-                  return (
-                    <Menu.Item>
-                      <div onClick={() => (window.location.href = data.path)}>
-                        <Menu.Item>{data.name}</Menu.Item>
-                      </div>
-                    </Menu.Item>
-                  );
-                })}
-              </SubMenu>
 
               <SubMenu key="sub2" title="Academics">
                 {array.academics.map((data) => {
@@ -196,6 +162,9 @@ export default class NavBar extends Component {
         ) : null}
 
         <div className="navbar">
+          <div className="logo">
+            <img src={logo} alt="" />
+          </div>
           <Link to="/">
             <div> Home</div>
           </Link>

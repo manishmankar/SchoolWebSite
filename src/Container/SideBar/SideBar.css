@@ -3,43 +3,89 @@
   top: 30%;
   z-index: 10;
   right: 0%;
+  width: 25px;
 }
 
-.SideBarBox1 {
+.sideBarBox1 {
   height: 80px;
-  width: 30px;
-  background-color: pink;
-  opacity: 0.7;
-  margin: 5px 0px 10px 5px;
+  width: 100%;
+  background-color: rgb(128, 157, 240);
+
+  margin: 5px 0px 10px 0px;
   border-radius: 10px 0px 0px 10px;
 }
 
-.SideBarBox1 > img {
+.sideBarBox1 > img {
   width: 30px;
   height: 30px;
   margin-top: 25px;
 }
 
-.sideBarHide {
-  display: none;
-  background-color: aqua;
+.sideBarHideAct1 {
+  background-color: white;
   position: absolute;
-  width: 200px;
-  top: 0;
+  width: 270px;
+  top: 10px;
+  right: 100%;
+  padding: 10px;
+}
+.sideBarHideAct1 > div {
+  display: flex;
+  color: #3a61ac;
+}
+.sideBarHideAct1 > div > div {
+  box-shadow: 4px 8px 6px -6px black;
+}
+
+.sideBarHideAct1 > p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+.sideBarHideAct2 {
+  background-color: white;
+  position: absolute;
+  width: 270px;
+  height: 200px;
+  top: 100px;
+  right: 100%;
+}
+.sideBarHideAct3 {
+  background-color: white;
+  position: absolute;
+  width: 270px;
+  height: 200px;
+  top: 190px;
+  right: 100%;
+}
+.sideBarHideAct4 {
+  background-color: white;
+  position: absolute;
+  width: 270px;
+  height: 200px;
+  top: 280px;
   right: 100%;
 }
 
-.SideBarBox1:hover + .sideBarHide {
-  display: block;
-  cursor: pointer;
+.sideBarHide1 {
+  display: none;
+}
+.sideBarHide2 {
+  display: none;
+}
+.sideBarHide3 {
+  display: none;
+}
+.sideBarHide4 {
+  display: none;
 }
 
 .SideBarBox2 {
   height: 80px;
-  width: 30px;
-  background-color: yellowgreen;
-  opacity: 0.7;
-  margin: 5px 0px 10px 5px;
+  width: 100%;
+  background-color: #dc3c46;
+
+  margin: 5px 0px 10px 0px;
   border-radius: 10px 0px 0px 10px;
 }
 
@@ -51,10 +97,10 @@
 
 .SideBarBox3 {
   height: 80px;
-  width: 30px;
-  background-color: rgb(252, 140, 140);
-  opacity: 0.7;
-  margin: 5px 0px 10px 5px;
+  width: 100%;
+
+  background-color: #c59312;
+  margin: 5px 0px 10px 0px;
   border-radius: 10px 0px 0px 10px;
 }
 
@@ -67,15 +113,13 @@
 .m {
   display: none;
 }
-.SideBarBox3:hover + .m {
-  background-color: blue;
-}
+
 .SideBarBox4 {
   height: 80px;
-  width: 30px;
-  background-color: blueviolet;
-  opacity: 0.7;
-  margin: 5px 0px 10px 5px;
+  width: 100%;
+  background-color: #3a61ac;
+
+  margin: 5px 0px 10px 0px;
   border-radius: 10px 0px 0px 10px;
 }
 
@@ -83,4 +127,8 @@
   width: 30px;
   height: 30px;
   margin-top: 25px;
+}
+
+.SideBar:hover {
+  width: 60px;
 }

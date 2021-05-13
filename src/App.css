@@ -16,14 +16,20 @@
 }
 
 .slick-prev {
-  left: 0 !important;
+  left: 20px !important;
   z-index: 1 !important;
 }
 
 .slick-next {
-  right: 0 !important;
+  right: 35px !important;
 }
 
+.slick-next:before,
+.slick-prev:before {
+  font-size: 30px !important;
+
+  color: black !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

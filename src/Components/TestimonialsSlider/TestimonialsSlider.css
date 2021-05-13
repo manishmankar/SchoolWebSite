@@ -11,6 +11,13 @@
   color: white;
   font-size: 23px;
 }
+
+.testimoneyButton > button {
+  background-color: #7b7bfc;
+  color: white;
+  margin: 0px 10px;
+}
+
 @media (max-width: 768px) {
   .TestimonialSliderContainer {
     font-size: 15px;

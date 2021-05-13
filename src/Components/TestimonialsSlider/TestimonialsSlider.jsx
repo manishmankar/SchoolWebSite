@@ -26,7 +26,7 @@ export default class DemoCarousel extends Component {
                 A big thanks to all the teachers for putting so much effort into
                 my child's education and being so corporative and helpful. The
                 teachers are very passionate and caring towards the child I am
-                extremely happy with Imperial School of Excellence
+                extremely happy with VDHS School of Excellence
               </div>
               <div>
                 <img src="" alt="" />
@@ -43,7 +43,7 @@ export default class DemoCarousel extends Component {
                 A big thanks to all the teachers for putting so much effort into
                 my child's education and being so corporative and helpful. The
                 teachers are very passionate and caring towards the child I am
-                extremely happy with Imperial School of Excellence
+                extremely happy with VDHS School of Excellence
               </div>
               <div>
                 <img src="" alt="" />
@@ -60,7 +60,7 @@ export default class DemoCarousel extends Component {
                 A big thanks to all the teachers for putting so much effort into
                 my child's education and being so corporative and helpful. The
                 teachers are very passionate and caring towards the child I am
-                extremely happy with Imperial School of Excellence
+                extremely happy with VDHS School of Excellence
               </div>
               <div>
                 <img src="" alt="" />
@@ -72,8 +72,10 @@ export default class DemoCarousel extends Component {
             </div>
           </Slide>
         </Slider>
-        <ButtonBack>Back</ButtonBack>
-        <ButtonNext>Next</ButtonNext>
+        <div className="testimoneyButton">
+          <ButtonBack>Back</ButtonBack>
+          <ButtonNext>Next</ButtonNext>
+        </div>
       </CarouselProvider>
     );
   }

@@ -12,11 +12,10 @@ export default class Footer extends Component {
             src="https://new.iselearning.ac.in/wp-content/uploads/ImperialSchool_logo.png"
             alt=""
           />
-          <h3>Imperial School of Excellence</h3>
+          <h3>VDHS School of Excellence</h3>
           <p>
-            Imperial School of Excellence is a young, co-educational
-            international school based in Ahmedabad. The school, true to its
-            name
+            VDHS School of Excellence is a young, co-educational international
+            school based in Ahmedabad. The school, true to its name
           </p>
         </div>
         <div className="footerBlock2">
